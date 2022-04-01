@@ -3,7 +3,7 @@ import os
 
 so = socket.socket()
 port = 8080
-host = "DESKTOP-MOA9M48"
+host = input(str("Please enter the host adress: "))
 
 so.connect((host, port))
 
